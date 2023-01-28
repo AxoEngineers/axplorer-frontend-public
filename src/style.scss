@@ -1,0 +1,73 @@
+@import "https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;0,900&display=swap";
+$title-family: 'Montserrat', sans-serif;
+$title-color: #eee;
+$label-color: #eee;
+$modal-card-head-background-color: #333;
+$modal-card-foot-background-color: #333;
+$modal-card-body-background-color: #313131;
+$modal-card-title-color: #eee;
+$modal-card-head-border-bottom: 0px;
+$modal-card-foot-border-top: 0px;
+$card-background-color: #212121;
+$subtitle-family: 'Montserrat', sans-serif;
+$subtitle-weight: 700;
+$card-color: #eee;
+$subtitle-color: #eee;
+$button-family: $title-family;
+$navbar-background-color: $card-background-color;
+$navbar-item-color: $modal-card-title-color;
+$navbar-item-hover-background-color: $modal-card-head-background-color;
+$navbar-item-hover-color: #fff;
+$link-hover: #96a3df;
+@import '../node_modules/bulma/bulma';
+
+.button {
+  font-weight: 700;
+}
+
+body, html {
+  background-color: #333;
+  color: #eee;
+
+  strong {
+    color: #eee;
+  }
+}
+
+.control > .label {
+  text-align: left;
+}
+
+.opensea-btn {
+  &:hover {
+    text-decoration: none !important;
+  }
+}
+
+.modal-card {
+  figure.image {
+    margin-bottom: 0.5rem;
+  }
+}
+
+@include from($desktop) {
+  .field.is-grouped.sorts {
+    justify-content: flex-end;
+  }
+}
+
+@include until($desktop) {
+  .field.is-grouped.filters {
+    flex-wrap: wrap;
+
+    p.active-filters {
+      display: flex;
+      flex-wrap: wrap;
+      width: 100%;
+      .tag {
+        margin-top: 8px;
+      }
+    }
+  }
+}
+

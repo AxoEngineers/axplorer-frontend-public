@@ -1,0 +1,24 @@
+{
+    "redirects": [
+        {
+            "source": "/",
+            "has": [
+                {
+                    "type": "host",
+                    "value": "staking.axolittles.io"
+                }
+            ],
+            "destination": "https://explorer.axolittles.io/stake"
+        },
+        {
+            "source": "/",
+            "has": [
+                {
+                    "type": "host",
+                    "value": "bridging.axolittles.io"
+                }
+            ],
+            "destination": "https://explorer.axolittles.io/bridge"
+        }
+    ]
+}
