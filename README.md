@@ -7,6 +7,8 @@ The frontend uses Bulma for its customisability and ease of use.
 The Staking and Bridging pages use a custom backend API using TheGraph.
 The website is hosted on Vercel, domains managed by CloudFlare, and the images are pulled from the AxolittlesCDN.
 
+Visit the site at: https://explorer.axolittles.io/
+
 ## Get started
 To run the Axplorer locally:
 
