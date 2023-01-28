@@ -33,6 +33,10 @@
 			ecosystem and all its utility. The Axplorer continues to be maintained by the AxolittlesNFT Team with support of
 			<a href="https://twitter.com/0xMLN" target="_blank">@0xMLN</a>.
 		</p>
+    <h3 class="title has-text-centered">Community Adoption</h3>
+		<p>
+			In January 2023, the AxolittlesNFT Team dissolved and the Axplorer was open sourced to being a community project.
+		</p>
 	</div>
 </section>
 <section class="section">
